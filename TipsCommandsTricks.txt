@@ -1,0 +1,17 @@
+# Large file storage tips and tricks. 
+
+To download Git LFS go to https://docs.github.com/en/repositories/working-with-files/managing-large-files/installing-git-large-file-storage. This resource is the most useful and will walk you through all associated steps and troubleshooting. However, I'll try to summarize the main commands here by working with this test repository. The repository contains a single large file (satellite derived kelp measures).  
+
+
+
+Step 1. Clone the repository locally 
+
+> git clone https://github.com/stier-lab/GitLFS-2022.git
+
+Step 2. After downloading make a change to the test data file, save the file. Then commit and push.
+
+> git add - A
+> git commit -m "your message here."
+> git push
+
+ 
