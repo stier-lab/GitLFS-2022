@@ -52,3 +52,18 @@ The following command will take the large file, pluck it from the commit history
 Step 5. Now push the repository. (This can take a little while, or at least longer than you would expect for you connections upload speeds)
 
 > git push
+
+
+# General comments
+
+For each repository where you use git lfs you need to run: 
+
+> git lfs install
+
+This will initialize git lfs for the repository. If the repository already exists, you can then use 
+
+> git lfs pull 
+
+... this will allow you to seamlessly access the large files. 
+
+
